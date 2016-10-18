@@ -20,7 +20,7 @@ a:active {
 
 #header-index {
     width: 100%;
-    margin: 1em 0 1em 0;
+    margin: 0.5em 0 0.5em 0;
 }
 
 #header-index nav {
@@ -32,7 +32,9 @@ a:active {
 }
 
 #header-index img {
-    width: 75%;
+    width: 80%;
+    display: block;
     max-width: 100%;
-    margin-bottom: -0.75em;
+    margin-left: auto;
+    margin-right: auto;
 }
