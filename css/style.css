@@ -56,7 +56,6 @@ a:hover {
 .card-wide {
     background: #FFFFFF;
     border-radius: 0.125rem;
-    display: inline-block;
     width: 100%;
     height: auto;
     margin: 0.5rem 0 0.75rem 0;
@@ -64,8 +63,11 @@ a:hover {
 }
 
 .card-wide img {
-    width: 100%;
-    height: auto;
+    width: 40%;
+    height: 100%;
     display: block;
+    max-width: 40%;
+    max-height: 40%;
     margin-bottom: 0rem;
+    border-
 }
