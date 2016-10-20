@@ -1,18 +1,26 @@
+/*
+    Colors -
+    Background - #FAFAFA
+    Cards/Dialogs - #FFFFFF
+    Navbar/Header - #F5F5F5
+*/
+
 html {
-	font-size: 100%;
+    font-size: 100%;
 }
 
 body {
-    background-color: #F5F5F5;    
+    background-color: #FAFAFA;
 }
 
-a:link,a:visited {
+a:link,
+a:visited {
     color: #2196F3;
-	    text-decoration: none;
-	}
+    text-decoration: none;
+}
 
 a:hover {
-    color: #333333;
+    color: #212121;
 }
 
 #header-index {
@@ -24,16 +32,16 @@ a:hover {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     text-align: center;
     font-weight: 590;
-    font-size: 1.25rem;        
+    font-size: 1.25rem;
 }
 
-#header-index nav a {	
-	padding-right: 0.35rem;	
-	border-right: solid #E0E0E0 0.1rem;
+#header-index nav a {
+    padding-right: 0.35rem;
+    border-right: solid #E0E0E0 0.1rem;
 }
 
-#header-index nav a:last-child{
-	border-right: none;
+#header-index nav a:last-child {
+    border-right: none;
 }
 
 #header-index img {
@@ -45,16 +53,19 @@ a:hover {
     margin-bottom: -0.25rem;
 }
 
-.card {
-	background-color: #FFFFFF;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 0.5rem; /* 5px rounded corners */
+.card-wide {
+    background: #FFFFFF;
+    border-radius: 0.125rem;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 0.5rem 0 0.75rem 0;
+    box-shadow: 0 0.875rem 1.75rem rgba(0, 0, 0, 0.25), 0 0.625rem 0.625rem rgba(0, 0, 0, 0.22);
 }
 
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.card-wide img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 0rem;
 }
-
-
-
